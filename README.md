@@ -1,7 +1,7 @@
 # space_game_one
 A real-time space trading game, written in C++, that looks like the classic TREK game from mainframes of old.
 
-Space Game 1
+OVERVIEW
 
     This is a real-time text-based space trading game that visually looks
     like old mainframe TREK games, but instead of exploring the galaxy and 
@@ -12,35 +12,42 @@ Space Game 1
     and also the conio library for console functionality. This game is 
     composed of 18 files (8 .cpp files and 8 .h header files).
 
-SUMMARY
-Fly around in a spaceship to various space stations to buy and sell goods for 
-profit and to refuel.  Build wealth to purchase bigger ships.  Be careful not 
-to run out of fuel.
+SUMMARY OF REQUIREMENTS
+
+    Fly around in a spaceship to various space stations to buy and sell goods 
+    for profit and to refuel.  Build wealth to purchase bigger ships.  Be 
+    careful not to run out of fuel.
 
 TIME
-Real-time will be used (the player has no control over time), but will be 
-scaled where 1 min = 1 hour game time.
+
+    Real-time will be used (the player has no control over time), but will be 
+    scaled where 1 min = 1 hour game time.
 
 FRAME RATE
-50 fps will be used, requiring a loop that blocks for 20ms.
+
+    50 fps will be used, requiring a loop that blocks for 20ms.
 
 PLAYING FIELD
-A (partial) inner-planetary system, radius = 150,000,000 km (in all directions
-x,y,z), roughly 1 AU.
+
+    A (partial) inner-planetary system, radius = 150,000,000 km (in all 
+    directions x,y,z), roughly 1 AU.
 
 PORTS
-10 space stations will be randomly placed within the playing field.
-Names of each station:
-Arapahoe
-Berthoud
-Centennial
-Durango
-Eldora
-Fowler
-Gunnison
-Hooper
-Idalia
-Julesburg
+
+    10 space stations will be randomly placed within the playing field.
+
+    Names of each station:
+
+        Arapahoe
+        Berthoud
+        Centennial
+        Durango
+        Eldora
+        Fowler
+        Gunnison
+        Hooper
+        Idalia
+        Julesburg
 
 MARKETS
 3 tradable goods will be available with the following base prices and price
